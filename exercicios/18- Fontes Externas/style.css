@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(245, 231, 39);
+    font-family: 16px;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(245, 231, 39);
+    font-family: 16px;
+}
