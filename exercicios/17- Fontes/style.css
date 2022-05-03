@@ -1,7 +1,32 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Medidas Absolutas
+    cm, mm, in, px, pt,pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente é = 1em
+    */
+    font-size: 1em;
+    /* Peso da fonte = font-weight: normal;
+    Estilo da fonte = font-style: normal;
+    Sublinhado = text-decoration: underline;
+    lighter normal bold bolder */
+
+    /* weight: peso , width: largura e height: altura */
 }
 
-h1, h2 {
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+    /* Shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic: */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+
+h2 {
+    font: bold 2em 'Work Sans';
 }
