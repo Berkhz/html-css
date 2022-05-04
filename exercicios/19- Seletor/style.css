@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 
+    DIFERENÇA DE SELETORES:
+    EM HTML É ID = EM CSS É #
+    EM HTML É CLASS = EM CSS É .
+*/
+
+body {
+    background-color: rgb(149, 255, 215);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(3, 80, 80);
+}
+
+h1#principal {
+    color: rgba(17, 41, 31, 0.726);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(4, 73, 50);
+}
