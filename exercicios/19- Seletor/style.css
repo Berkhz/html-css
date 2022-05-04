@@ -7,19 +7,44 @@
 */
 
 body {
-    background-color: rgb(149, 255, 215);
+    background-color: #580a97;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 h1 {
-    color: rgb(3, 80, 80);
+    color: white;
+    text-align: center;
 }
 
 h1#principal {
-    color: rgba(17, 41, 31, 0.726);
+    color: white;
     text-align: center;
 }
 
 h2 {
-    color: rgb(4, 73, 50);
+    color: #F2C9D1;
+}
+
+.basico {
+    color: #005ed8;
+    background-color: #005ed869;
+}
+
+.intermediario {
+    color: #d8c200;    
+    background-color: #d8d4006c;
+}
+
+.avancado {
+    color: #d82000;
+    background-color: #d8200071;
+}
+
+.destaque {
+    background-color: #d800c683;
+}
+
+.sub {
+    color: rgba(255, 255, 0, 0.808);
 }
