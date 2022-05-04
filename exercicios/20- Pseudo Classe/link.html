@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none; /* TIRAR O SUBLINHADO */
+            font-weight: bold; /* DEIXAR MAIS GROSSO */
+        }
+
+        a:visited {
+            color: rgb(139, 74, 0);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline; /* SUBLINHAR QUANDO ENCOSTAR */
+        }
+
+        a:active {
+            color: violet;
+        }
+
+        .especial {
+            background-color: rgb(243, 55, 55);
+        }
+
+        .especial::before {
+            content: '->';
+        }
+
+        .especial::after {
+            content: '<-'; 
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Berkhz">GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UC6SmK6OuU0FQavGXNkl7ITA" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/kauan-bertalha-71288b1a0/">Site do Linkedin</a></li>
+    </ul>
+</body>
+</html>
